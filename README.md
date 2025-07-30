@@ -1079,3 +1079,17 @@ spring:
       on-profile: test
   datasource:
     url: jdbc:
+-- Sample data for Employee CRUD application
+-- This file will be executed when the application starts
+
+INSERT INTO employees (first_name, last_name, email, department, salary, hire_date, phone, address) VALUES
+('John', 'Doe', 'john.doe@company.com', 'IT', 75000.00, '2023-01-15', '123-456-7890', '123 Main St, City, State'),
+('Jane', 'Smith', 'jane.smith@company.com', 'HR', 65000.00, '2023-02-20', '098-765-4321', '456 Oak Ave, City, State'),
+('Mike', 'Johnson', 'mike.johnson@company.com', 'Finance', 80000.00, '2023-01-10', '555-123-4567', '789 Pine St, City, State'),
+('Sarah', 'Williams', 'sarah.williams@company.com', 'IT', 70000.00, '2023-03-05', '444-987-6543', '321 Elm St, City, State'),
+('David', 'Brown', 'david.brown@company.com', 'Marketing', 60000.00, '2023-02-28', '777-888-9999', '654 Maple Ave, City, State'),
+('Lisa', 'Davis', 'lisa.davis@company.com', 'HR', 68000.00, '2023-01-25', '222-333-4444', '987 Cedar St, City, State'),
+('Robert', 'Miller', 'robert.miller@company.com', 'IT', 85000.00, '2022-12-15', '666-777-8888', '147 Birch Ave, City, State'),
+('Emily', 'Wilson', 'emily.wilson@company.com', 'Finance', 72000.00, '2023-02-10', '111-222-3333', '258 Spruce St, City, State'),
+('James', 'Moore', 'james.moore@company.com', 'Marketing', 58000.00, '2023-03-15', '999-888-7777', '369 Willow Ave, City, State'),
+('Anna', 'Taylor', 'anna.taylor@company.com', 'IT', 77000.00, '2023-01-30', '555-444-3333', '741 Aspen St, City, State');
